@@ -1,6 +1,6 @@
 {
-    "name": "chuwei-client/web",
-    "description": "系统应用功能",
+    "name": "chuwei-client/tenant",
+    "description": "获取系统应用信息",
     "type": "library",
     "authors": [
         {
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ChuWei\\Client\\Web\\": "src/"
+            "ChuWei\\Client\\Tenant\\": "src/"
         }
     },
     "extra": {

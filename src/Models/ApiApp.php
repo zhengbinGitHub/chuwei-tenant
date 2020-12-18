@@ -6,7 +6,7 @@
  * Time: 22:26
  */
 
-namespace ChuWei\Client\Web\Models;
+namespace ChuWei\Client\Tenant\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
