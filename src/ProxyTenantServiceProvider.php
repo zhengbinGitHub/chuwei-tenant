@@ -19,7 +19,7 @@ class ProxyTenantServiceProvider extends ServiceProvider
     public function register()
     {
         if (! $this->app->configurationIsCached()) {
-            $this->mergeConfigFrom(__DIR__.'/../config/cwapp.php', 'cwapp');
+            $this->mergeConfigFrom(__DIR__.'/../config/cwapp_tenant.php', 'cwapp_tenant');
         }
 
         //注册服务
